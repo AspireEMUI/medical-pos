@@ -1,6 +1,6 @@
 {
   "name": "medical-pos-backend",
-  "version": "1.0.0",
+  "version": "14.0.0",
   "description": "Medical Store POS Backend API",
   "main": "server.js",
   "engines": {

@@ -1,0 +1,19 @@
+{
+  "name": "medical-pos",
+  "version": "14.0.0",
+  "description": "Medical Store Point of Sale System - Full Stack Application",
+  "private": true,
+  "engines": {
+    "node": "24.x"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install-all": "npm install",
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "start": "npm start --workspace=backend"
+  }
+}
